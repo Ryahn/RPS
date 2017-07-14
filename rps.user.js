@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Recommended Purchases Script
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Recommends how much tech or military to purchase
 // @author       Ryahn aka Ryan Carr
 // @match        http://www.cybernations.net/nation_drill_display.asp?Nation_ID=*
@@ -33,21 +33,21 @@ if(total <= 5) return;
 $('#table18 > tbody > tr:nth-child(53) > td:nth-child(2) > i').after(' <span style="color:blue;font-size:12px">Purchase <span style="font-weight:bold;">' + total + '</span> to be at 20% of citizen population</span>');
 
 
-var tech = $("#table17 > tbody > tr:nth-child(2) > td:nth-child(2) > b > i");
-
-switch (tech) {
-	case tech <= 4.5:
-		console.log('4.5');
-		break;
-	case 'prototype':
-		console.log('4.5');
-		break;
-	case 'mootools':
-		console.log('4.5');
-		break;
-	case 'dojo':
-		console.log('4.5');
-		break;
-	default:
-		console.log('4.5');
-}
+// var tech = $("#table17 > tbody > tr:nth-child(2) > td:nth-child(2) > b > i");
+//
+// switch (tech) {
+// 	case tech <= 4.5:
+// 		console.log('4.5');
+// 		break;
+// 	case 'prototype':
+// 		console.log('4.5');
+// 		break;
+// 	case 'mootools':
+// 		console.log('4.5');
+// 		break;
+// 	case 'dojo':
+// 		console.log('4.5');
+// 		break;
+// 	default:
+// 		console.log('4.5');
+// }
