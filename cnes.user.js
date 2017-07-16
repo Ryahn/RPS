@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Cyber Nations Enhanced Service
+// @name         CNES
 // @namespace    CNES
 // @version      0.1.0.4a
-// @description  Help you do all the math that you dont want to do
+// @description  Cyber Nations Enhanced Services
 // @author       Ryahn aka Ryan Carr
 // @match        http://www.cybernations.net/*
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
