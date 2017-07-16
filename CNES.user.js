@@ -1,13 +1,13 @@
 // ==UserScript==
-// @name         CNES
-// @namespace    CNES
+// @name         cnes
+// @namespace    cnes
 // @version      0.1.0.5a
 // @description  Cyber Nations Enhanced Services
 // @author       Ryahn aka Ryan Carr
 // @match        http://www.cybernations.net/*
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
-// @downloadURL  https://raw.githubusercontent.com/Ryahn/cnes/master/CNES.user.js
-// @updateURL    https://raw.githubusercontent.com/Ryahn/cnes/master/CNES.meta.js
+// @downloadURL  https://raw.githubusercontent.com/Ryahn/cnes/master/cnes.user.js
+// @updateURL    https://raw.githubusercontent.com/Ryahn/cnes/master/cnes.meta.js
 // @connect raw.githubusercontent.com
 // @connect cybernations.net
 // @grant GM_addStyle
