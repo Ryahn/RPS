@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Recommended Purchases Script
 // @namespace    http://tampermonkey.net/
-// @version      0.3
+// @version      0.1.0.4a
 // @description  Recommends how much tech or military to purchase
 // @author       Ryahn aka Ryan Carr
 // @match        http://www.cybernations.net/nation_drill_display.asp?Nation_ID=*
