@@ -1,14 +1,26 @@
 // ==UserScript==
-// @name         Recommended Purchases Script
-// @namespace    http://tampermonkey.net/
+// @name         Cyber Nations Enhanced Service
+// @namespace    CNES
 // @version      0.1.0.4a
-// @description  Recommends how much tech or military to purchase
+// @description  Help you do all the math that you dont want to do
 // @author       Ryahn aka Ryan Carr
-// @match        http://www.cybernations.net/nation_drill_display.asp?Nation_ID=*
-// @grant        none
+// @match        http://www.cybernations.net/*
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
-// @downloadURL  https://github.com/Ryahn/RPS/raw/master/rps.user.js
-// @updateURL    https://github.com/Ryahn/RPS/raw/master/rps.user.js
+// @downloadURL  https://raw.githubusercontent.com/ryahn/cnes/master/cnes.user.js
+// @updateURL    https://raw.githubusercontent.com/ryahn/cnes/master/meta.js
+// @connect raw.githubusercontent.com
+// @connect cybernations.net
+// @grant GM_addStyle
+// @grant GM_setValue
+// @grant GM_getValue
+// @grant GM_deleteValue
+// @grant GM_listValues
+// @grant GM_addValueChangeListener
+// @grant GM_removeValueChangeListener
+// @grant GM_getResourceText
+// @grant GM_getResourceURL
+// @grant GM_xmlhttpRequest
+// @grant GM_info
 // ==/UserScript==
 
 //Gets population
