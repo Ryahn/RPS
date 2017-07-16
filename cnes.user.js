@@ -6,8 +6,8 @@
 // @author       Ryahn aka Ryan Carr
 // @match        http://www.cybernations.net/*
 // @require      https://code.jquery.com/jquery-3.2.1.min.js
-// @downloadURL  https://raw.githubusercontent.com/ryahn/cnes/master/cnes.user.js
-// @updateURL    https://raw.githubusercontent.com/ryahn/cnes/master/meta.js
+// @downloadURL  https://raw.githubusercontent.com/Ryahn/cnes/master/cnes.user.js
+// @updateURL    https://raw.githubusercontent.com/Ryahn/cnes/master/meta.js
 // @connect raw.githubusercontent.com
 // @connect cybernations.net
 // @grant GM_addStyle
