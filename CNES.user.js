@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         CNES
 // @namespace    CNES
-// @version      0.1.0.4a
+// @version      0.1.0.5a
 // @description  Cyber Nations Enhanced Services
 // @author       Ryahn aka Ryan Carr
 // @match        http://www.cybernations.net/*
@@ -23,6 +23,8 @@
 // @grant GM_info
 // ==/UserScript==
 
+
+//Test
 //Gets population
 var pop = $("#table18 > tbody > tr:nth-child(52) > td:nth-child(2)").text().split(/\s+/);
 //Returns number
